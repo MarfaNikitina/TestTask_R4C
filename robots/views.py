@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from rest_framework.generics import CreateAPIView
+from robots.serializers import RobotSerializer
 
-# Create your views here.
+
+class RobotApiView(CreateAPIView):
+    serializer_class = RobotSerializer
