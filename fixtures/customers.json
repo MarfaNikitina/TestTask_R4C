@@ -1,0 +1,26 @@
+[
+  {
+    "model": "customers.customer",
+    "pk": 1,
+    "fields": {
+      "email": "marfik93@mail.ru",
+      "name": "Marfa"
+    }
+  },
+  {
+    "model": "customers.customer",
+    "pk": 2,
+    "fields": {
+      "email": "monkeybusiness@mail.ru",
+      "name": "Oliver"
+    }
+  },
+  {
+    "model": "customers.customer",
+    "pk": 3,
+    "fields": {
+      "email": "marfa_n_nikitina@mail.ru",
+      "name": "Marfa N"
+    }
+  }
+]
