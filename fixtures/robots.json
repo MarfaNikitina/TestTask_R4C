@@ -1,0 +1,32 @@
+[
+  {
+    "model": "robots.robot",
+    "pk": 33,
+    "fields": {
+      "serial": "R5-D2",
+      "model": "R5",
+      "version": "D2", 
+      "created": "2023-01-31T11:48:41.569Z"
+    }
+  },
+  {
+    "model": "robots.robot",
+    "pk": 34,
+    "fields": {
+      "serial": "R2-D2",
+      "model": "R2",
+      "version": "D2",
+      "created": "2023-01-31T11:48:47.035Z"
+    }
+  },
+  {
+    "model": "robots.robot",
+    "pk": 35,
+    "fields": {
+      "serial": "R3-D2", 
+      "model": "R3",
+      "version": "D2",
+      "created": "2023-01-31T11:48:50.713Z"
+    }
+  }
+]

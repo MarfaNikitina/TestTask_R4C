@@ -16,6 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from customers import views as customer_views
+from orders import views as order_views
+from robots import views as robot_views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/v1/add_robot', robot_views.RobotApiView.as_view(), name='create_robot'),
+    path('api/v1/add_order', order_views.OrderApiView.as_view(), name='create_order'),
+    path('api/v1/add_customer', customer_views.CustomerApiView.as_view(), name='create_customer'),
 ]

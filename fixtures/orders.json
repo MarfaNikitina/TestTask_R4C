@@ -1,0 +1,27 @@
+[
+  {
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+      "customer": 1,
+      "robot_serial": "R2-D2",
+      "status": true}
+  },
+  {
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+      "customer": 1,
+      "robot_serial": "R2-Z5",
+      "status": false}
+  },
+  {
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+      "customer": 1,
+      "robot_serial": "R2-D2",
+      "status": true
+    }
+  }
+]
